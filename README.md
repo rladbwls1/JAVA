@@ -11,6 +11,8 @@ class OperEx01
 	{
 		int a = 10;
 		System.out.println(++a);	// 11
+	}
+}
 ```
 
 ```
@@ -21,6 +23,8 @@ class OperEx01
 		int a = 10;
 		System.out.println(a++);	// 10
 		System.out.println(a);		// 11
+	}
+}
 ```
 
 ```
