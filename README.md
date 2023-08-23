@@ -47,4 +47,16 @@ class OperEx01
 ```
 ### 산술 연산자
 ![image](https://github.com/rladbwls1/JAVA/assets/105581525/8d10a56b-e227-4115-897a-13c665186b9b)
+```
+class OperEx02 
+{
+	public static void main(String[] args) 
+	{
+		// byte -128 ~ 127
+		byte a = (byte)(100 + 30);	// 오버플로우 발생
+		System.out.println(a);
+	}
+}
+```
+오버플로우 : 메모리의 표현 범위에서 벗어난 수의 값을 저장하는 경우
 
