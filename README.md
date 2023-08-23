@@ -17,10 +17,7 @@ class OperEx01
 }
 ```
 **++a** : 증감연산자 먼저 실행하므로 값 11
-
- <br/>
-  <br/>
-
+ <br/><br/>
 ```
 class OperEx01 
 {
@@ -33,9 +30,7 @@ class OperEx01
 }
 ```
 **a++** : 증감연산자 마지막으로 실행하므로 값 10 (그 다음 a 출력시 값 11)
-
-
-
+ <br/><br/>
 **증감연산자 예시**
 ```
 class OperEx01 
@@ -53,8 +48,7 @@ class OperEx01
 	}
 }
 ```
-
-
+<br/><br/>
 ### 산술 연산자
 ![image](https://github.com/rladbwls1/JAVA/assets/105581525/8d10a56b-e227-4115-897a-13c665186b9b)
 ```
@@ -69,7 +63,7 @@ class OperEx02
 }
 ```
 **오버플로우** : 메모리의 표현 범위에서 벗어난 수의 값을 저장하는 경우
-
+<br/><br/>
 
 ### 비교 연산자
 * 대소 또는 동등 비교해서 boolean 타입인 true/false 산출
@@ -92,10 +86,31 @@ class OperEx03
 	}
 }
 ```
-
-
+<br/><br/>
 
 ### 논리 연산자
 * 논리곱, 논리합, 배타적 논리합, 논리 부정 연산 수행
 * 피연산자는 boolean 타입만 사용 가능!
 ![image](https://github.com/rladbwls1/JAVA/assets/105581525/fe404966-17c5-4026-b1fc-db4dce0aa8ec)
+* 논리곱, 논리합 예시
+```
+class OperEx04 
+{
+	public static void main(String[] args) 
+	{
+		int a = 10;
+		boolean r = a > 0 && a > 5 && a > 10;
+		System.out.println(r);	// false
+
+		r = a > 0 || a > 5 || a > 10;
+		System.out.println(r);	// true
+
+		boolean result = true;
+		System.out.println(!result);	// ! 부정문 false
+	}
+}
+```
+**a > 0 : True**
+**a > 5 : True**
+**a > 10 : False**
+<br/><br/>
