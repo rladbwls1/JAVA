@@ -92,7 +92,8 @@ class OperEx03
 * 논리곱, 논리합, 배타적 논리합, 논리 부정 연산 수행
 * 피연산자는 boolean 타입만 사용 가능!
 ![image](https://github.com/rladbwls1/JAVA/assets/105581525/fe404966-17c5-4026-b1fc-db4dce0aa8ec)
-* 논리곱, 논리합 예시
+<br/>
+* 논리연산자 예시
 ```
 class OperEx04 
 {
@@ -107,10 +108,19 @@ class OperEx04
 
 		boolean result = true;
 		System.out.println(!result);	// ! 부정문 false
+
+		result = a > 0 ^ a > 5;
+		System.out.println(result);	// false
 	}
 }
 ```
-**a > 0 : True**
-**a > 5 : True**
-**a > 10 : False**
+**a > 0 : True**<br/>
+**a > 5 : True**<br/>
+**a > 10 : False**<br/>
 <br/><br/>
+
+### 비트 연산자
+**2진수 : 0, 1**<br/>
+**8진수 : 0 ~ 7**<br/>
+**10진수 : 0 ~ 9**<br/>
+**16진수 : 0 ~ 15**<br/>
