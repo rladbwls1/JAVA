@@ -89,3 +89,10 @@ class OperEx03
 	}
 }
 ```
+
+
+
+### 논리 연산자
+* 논리곱, 논리합, 배타적 논리합, 논리 부정 연산 수행
+* 피연산자는 boolean 타입만 사용 가능!
+![image](https://github.com/rladbwls1/JAVA/assets/105581525/fe404966-17c5-4026-b1fc-db4dce0aa8ec)
