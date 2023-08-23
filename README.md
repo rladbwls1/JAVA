@@ -113,6 +113,7 @@ class OperEx04
 	}
 }
 ```
+
 **a > 0 : True**<br/>
 **a > 5 : True**<br/>
 **a > 10 : False**<br/>
