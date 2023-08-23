@@ -29,7 +29,7 @@ class OperEx01
 }
 ```
 **a++** : 증감연산자 마지막으로 실행하므로 값 10 (그 다음 a 출력시 값 11)
- <br/><br/>
+ <br/><br/><br/>
 **증감연산자 예시**
 ```
 class OperEx01 
@@ -93,6 +93,7 @@ class OperEx03
 ![image](https://github.com/rladbwls1/JAVA/assets/105581525/fe404966-17c5-4026-b1fc-db4dce0aa8ec)
 <br/>
 * 논리연산자 예시
+  
 ```
 class OperEx04 
 {
@@ -113,13 +114,12 @@ class OperEx04
 	}
 }
 ```
-
-**a > 0 : True**<br/>
-**a > 5 : True**<br/>
-**a > 10 : False**<br/>
+**- a > 0 : True**<br/>
+**- a > 5 : True**<br/>
+**- a > 10 : False**<br/>
 <br/><br/>
 
-### 비트 연산자
+### 진법
 **2진수 : 0, 1**<br/>
 **8진수 : 0 ~ 7**<br/>
 **10진수 : 0 ~ 9**<br/>
